@@ -1,5 +1,48 @@
+header {
+    background: #dddcdc; /*cor do header*/
+    padding: 20px 0; /*20 espaçamento para cima e baixo*/
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+
+}
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;    
+}
+
+nav li {
+	display: inline;
+    margin: 0 0 0 15px; /*topo, direita, baixo, esqueda */
+       
+}
+
+nav a {
+	display: inline-block;
+	padding: 5px;
+	text-transform: uppercase; /*deixa todos os itens em caixa alta*/
+    color: black; /*itens do link na cor preta*/
+    font-weight: bold; /*fonte em negrito*/
+    font-size: 20px; /*tamanho da fonte*/ 
+    text-decoration: none; /*deconração do texto - nenhum / sublinhado*/
+	
+	
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+
+}
+
+
 #banner {
 	width:100%;
+	padding: 2px
 }
 
 .principal{
@@ -46,4 +89,17 @@ ul {
 
 .imagembeneficios {
 	width: 50%;
+}
+
+.home {
+	text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+
 }

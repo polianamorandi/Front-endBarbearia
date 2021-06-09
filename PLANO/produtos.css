@@ -30,11 +30,28 @@ nav a {
  fonte*/ 
     text-decoration: none; /*deconração do texto - nenhum / sublinhado*/
 }
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+
+}
 
 .produtos {
     width: 940px;
     margin: 0 auto;
     padding: 100px 0;
+}
+
+.produtos li:hover { /* :hover é o comportamento qunado o mouse estiver por cima de algo*/
+    border-color: #c79c19;
+}
+
+.produtos li:hover h2 { /*quando o mouse estiver em cima do produto, vai alterar o h2*/
+    font-size: 34px;
+}
+
+.produtos li:active { /*qunado clica fica verde*/
+    border-color: #088c19;
 }
 
 .produtos li {
@@ -46,7 +63,7 @@ nav a {
     padding: 30px 20px;
     box-sizing: border-box;
     border: 2px solid #000000; /*tamanho da borda, tipo e cor*/
-    border-radius: 5%;
+    border-radius: 10px;
 }
 
 .produtos h2 {
@@ -62,5 +79,20 @@ nav a {
     font-size: 20px;
     font-weight: bold;
     
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+
 }
 
